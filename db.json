@@ -1,0 +1,28 @@
+{
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "Daniel Souza",
+      "idade": 28,
+      "cidade": "Salvador"
+    },
+    {
+      "id": 2,
+      "nome": "Ana Clara Rodrigues",
+      "idade": 25,
+      "cidade": "São Paulo"
+    },
+    {
+      "id": 3,
+      "nome": "Bruno Machado Lima",
+      "idade": 32,
+      "cidade": "Porto Alegre"
+    },
+    {
+      "id": 4,
+      "nome": "Fernanda Souza",
+      "idade": 29,
+      "cidade": "Curitiba"
+    }
+  ]
+}

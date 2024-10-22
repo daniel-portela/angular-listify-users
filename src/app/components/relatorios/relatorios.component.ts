@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-relatorios',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './relatorios.component.html',
-  styleUrl: './relatorios.component.css'
+  styleUrls: ['./relatorios.component.css'],
 })
-export class RelatoriosComponent {
-
-}
+export class RelatoriosComponent {}

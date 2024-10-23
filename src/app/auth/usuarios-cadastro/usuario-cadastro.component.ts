@@ -11,11 +11,10 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-componente',
   standalone: true,
-  imports: [ReactiveFormsModule, CommonModule],
-  templateUrl: './users.component.html',
-  styleUrl: './users.component.css',
+  imports: [ReactiveFormsModule, CommonModule, UsersComponent],
+  templateUrl: './usuario-cadastro.component.html',
+  styleUrl: './usuario-cadastro.component.css',
 })
-
 export class UsersComponent {
   formulario = new FormGroup({
     nome: new FormControl('', [Validators.required, Validators.minLength(3)]),
